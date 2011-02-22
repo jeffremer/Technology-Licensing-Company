@@ -1,0 +1,47 @@
+---
+extension: html
+filter:    erb
+---
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Technology Licensing Company <%= @page_title %></title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="generator" content="PHP 4.2" />
+
+	<style type="text/css" media="screen">
+		@import url( /css/site.css );
+	</style>
+
+</head>
+
+<body>
+
+	<a href="/" title="TLC">
+		<img src="/images/tlclogo_topleft.gif" alt="TLC" />
+	</a> 
+
+	<ul id="menu">
+		<li>
+		<a href="/claims.html" title="Claims">Claims</a>
+		</li>
+
+		<li>
+		<a href="/patent.html" title="Patent">Patent</a>
+		</li>
+
+		<li>
+		<a href="/faq.html" title="Contact &amp; FAQ">Contact &amp; FAQ</a>
+		</li>
+	</ul>
+
+	<div id="index">
+		<div id="main">
+		      <%= @content %>
+		</div>
+	</div>
+</body>
+
+</html>

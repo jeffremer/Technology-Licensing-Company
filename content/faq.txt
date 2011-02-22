@@ -1,0 +1,48 @@
+---
+title:      Contact &amp FAQ
+created_at: 2011-02-22 12:55:58.014951 -08:00
+filter:
+  - erb
+---
+
+<h3>
+CONTACT INFORMATION
+</h3>
+<p>
+Daniel Remer, Esq.<br />
+Technology Licensing Company, Inc.<br />
+33 Los Pinos<br/>
+Nicasio, CA 94946
+</p>
+<p>
+Fax: 415 276 9857<br />
+</P>
+
+<div>
+<p>Contact Daniel Remer by email at <a href="mailto:dan [at] technologylicensingcompany.com">dan [at] technologylicensingcompany.com</a>.</p>
+
+<h3>
+FREQUENTLY ASKED QUESTIONS
+</h3>
+
+<p class="text">
+
+Q: What does Patent <a href="patent.html">#5,734,862</a> cover?<br />
+A: The best thing to do is review the patent itself, available for download from this website. However, basically, <a href="patent.html">862</a> covers interactive seamless branching of the type used in todays CDROM and DVD productions.  For example, a scene change from a first scene to a second scene made in response to a user selection during playback of the first scene is likely to fall within the domain of <a href="patent.html">862</a>.
+</p>
+<p class="text">
+Q: How do I know if I potentially infringe <a href="patent.html">5,734,862?</a><br />
+A: We recommend you consult patent counsel. However if your software or your hardware performs seamless branching in accordance with DVD Standards then your product probably infringes and you should review the license agreement. You may also order a test DVD to see if your hardware/software combination infringe. See below for ordering information.
+</p>
+<p class="text">
+Q: If I have additional concerns, how can I address them to you?<br />
+A: You can either send us an <a href="mailto:dan [at] technologylicensingcompany.com">email</a> or you can give Dan Remer a call: (415) 235-3202.
+</p>
+<p class="text">
+Q: When does <a href="patent.html">5,734,862</a> expire?<br />
+A: The patent issued on March 31, 1998 and will expire after March 30, 2015.
+</p>
+<p class="text">
+Q: Can I have a test DVD to see if my hardware/software infringes?<br />
+        A: You may order a test DVD by using the email form above to contact Daniel remer. 
+        If you can play this test DVD your hardware infringes. </p>

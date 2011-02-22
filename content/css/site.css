@@ -1,0 +1,201 @@
+---
+extension: css
+filter:    erb
+layout:    nil   # no layout
+---
+a {
+	color: #333;
+	font-size: 7pt;
+	font-weight: normal;
+	text-decoration: none;
+	font-family: Verdana, Helvetica, Arial;
+}
+
+a:hover {
+	color: #666;
+}
+
+body, html {
+	background-color: #FFF;
+	color: #777;
+	font-family: Verdana, Helvetica, Arial;
+	margin: 0;
+	padding: 0px 0 0 0;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+
+img {
+	border: none;
+}
+
+legend, input, textarea {
+	font-size: 10px;
+	font-family: Verdana, Helvetica, Arial;
+	padding: 2px;
+}
+
+label {
+	cursor: pointer;
+}
+
+li {
+	margin-bottom: 3px;
+}
+
+p, dl, textarea, li, td {
+	color: #000; 
+	font-size: 7pt; 
+	font-family: Verdana, Helvetica, Arial;
+	text-align: left;
+}
+
+p.left {
+	float: left;
+	text-align: left;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+p.right {
+	float: right;
+	text-align: right;
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+td {
+	padding: 1px;
+}
+
+div.left {
+	margin: 0;
+	padding: 0;
+	float: left;
+	left: 0;
+	text-align: justify;
+	width: 49%;
+}
+
+div.right {
+	margin: 0;
+	padding: 0;
+	float: right;
+	right: 0;
+	text-align: justify;
+	width: 49%;
+}
+
+#credit, th {
+	font-size: 12px;
+}
+
+#footer {
+	background: #dcdcdc;
+	border-bottom: 1px solid #c9c9c9;
+	border-top: 1px solid #c9c9c9;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#footer, #footer :link, #footer a:visited {
+	color: #666;
+}
+
+#index {
+	background: #fff;
+	background: url(../images/grad.gif) repeat-x;
+	text-align: left;
+	top: 295px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	margin: 0;
+	padding: 20px 20px 100px 20px;
+	width: 75%;
+}
+
+#menu {
+	border: 2px solid #000;
+	border-left: 0;
+	border-right: 0;
+	background-color: #663;
+	margin: 10px 0 5px 0;
+	padding: 5px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 2px;
+	display: inline;
+}	
+	
+
+#menu li {
+	margin: 5px 20px;
+	display: inline;
+	list_style: none;
+}
+
+#menu a {		
+	font: 10px Verdana, Arial, Helvetica, sans-serif;	
+	font-weight: bold;
+	color: #fff;
+}
+
+#menu a:hover {
+	color: #ccc;
+}
+
+.text { 
+	color: #000000; 
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+.boldtext { 
+	color: #000000; 
+	font-size: 10px; 
+        font-weight : bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	text-decoration: none;
+}
+
+
+div.spacer {
+	clear: both;
+}
+
+
+#claimschart table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#claimschart td {
+	width: 50%;
+	border: 1px solid #000;
+	padding: 5px;
+	vertical-align: top;
+}
+
+/* EOF */

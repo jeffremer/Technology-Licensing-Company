@@ -1,0 +1,175 @@
+---
+title:      Claims
+created_at: 2011-02-22 12:52:07.924957 -08:00
+filter:
+  - erb
+---
+
+<h3>United States Patent  5,734,862 </h3>
+<p>Kulas</p>
+<p>March 31, 1998</p>
+<hr />
+<h3>
+System for selectively buffering and displaying relevant frames from interleaving frames associated with respective animation sequences stored in a medium in response to user selection 
+</h3>
+<h3 style="text-align:center;">
+Abstract
+</h3>
+<p>
+A system for eliminating access time in CD-ROM based interactive video applications. A CD-ROM disc is formatted with multiple interleaved animation sequences. During playback, a user is able to select a sequence as the current sequence. Only those frames corresponding to the current sequence are displayed while other frames are dropped. The interleaved pattern of frames allows multiple sequences to be available from the CD-ROM drive without requiring repositioning of the CD-ROM drive's read head thereby eliminating access time. Specific patterns of interleaving that advantageously improve interactivity of an interactive production are described. A frame buffering implementation is described.
+</p>
+<hr />
+<h3 style="text-align:center;">
+Claims
+</h3>
+<hr />
+<p>
+I claim: 
+</p>
+<p>
+1. A method for creating an interactive production on a medium having a spiral data track, comprising the following steps: 
+</p>
+<blockquote>
+<p>
+creating a first animation sequence of digital frames showing a first action; 
+</p>
+<p>
+creating a second animation sequence of digital frames for selectively display in place of the first animation sequence, wherein the second animation sequence is a     selectable path in the interactive production and shows a second action; 
+</p>
+<p>
+writing the first and second animation sequences of frames to the medium by interleaving the frames of the first animation sequence with the frames of the second animation sequence to create the interactive production; and 
+</p>
+<p>
+wherein a computer system is used to play back the interactive production, wherein the computer system comprises a processor, user input device, display screen, and a drive for reading the medium, the method further comprising the following steps performed under the control of the processor:
+</p>
+<p>
+continuously reading the interleaved frames from the medium; 
+</p>
+<p>
+displaying only the frames of the first animation sequence on the display screen to play back the first animation; 
+</p>
+<p>
+accepting signals from the user input device selecting the second animation sequence; and 
+</p>
+<p>
+in response to the signals from the user input device, displaying only the frames of the second animation sequence on the display screen to play back the second animation. 
+</p>
+<p>
+</blockquote>
+<p>
+2. The method of claim 1, further comprising the following steps: 
+</p>
+<blockquote>
+<p>
+prior to the "writing the first and second animation sequences" step, compressing one or more of the digital frames; 
+</p>
+<p>
+wherein the "writing the first and second animation sequences" step further includes the substep of writing the compressed digital frames to the medium; and decompressing a frame prior to displaying the frame on the display screen. 
+</p>
+</blockquote>
+<p>
+3. The method of claim 1, further comprising the steps of: 
+</p>
+<blockquote>
+<p>
+writing a tag, wherein the tag indicates that data representing one or more frames belongs to a specific sequence; and 
+</p>
+<p>
+using the tag during the play back of the interactive production to determine whether to display the associated data representing one or more frames. 
+</p>
+</blockquote>
+<p>
+4. The method of claim 3, wherein the computer system includes memory comprising a buffer, wherein frames are stored into the buffer prior to display on the display device, the method further comprising the step of: 
+</p>
+<blockquote>
+<p>
+using the tag to prevent loading of the associated data representing one or more frames into the buffer. 
+</p>
+</blockquote>
+<p>
+5. A method for playing back an interactive production recorded on a medium having a spiral data track, wherein the medium includes a first animation sequence of digital frames interleaved with frames from a second animation sequence of digital frames, wherein the medium further includes identification information associated with data describing the frames, wherein a computer system is used to play back the interactive production, wherein the computer system comprises a processor, user input device, display screen memory including a buffer, and drive for reading the medium, the method further comprising the following steps performed under the control of the processor: 
+</p>
+<blockquote>
+<p>
+continuously reading the interleaved frames and identification information from the medium; 
+</p>
+<p>
+using the identification information to store only frames of the first animation sequence into the buffer and to skip frames of the second animation sequence so that the skipped frames of the second animation sequence are not stored in the buffer; 
+</p>
+<p>
+displaying the frames in the buffer on the display screen to play back the first animation; 
+</p>
+<p>
+accepting signals from the user input device selecting the second animation sequence; and 
+</p>
+<p>
+in response to the signals from the user input device performing the following steps: 
+</p>
+<p>
+continuously reading the interleaved frames and identification information from the medium, 
+</p>
+<p>
+using the identification information to store frames of the second animation sequence into the buffer and to skip frames of the first animation sequence so that the skipped flames of the first animation sequence are not stored in the buffer; and 
+</p>
+<p>
+displaying the frames in the buffer on the display screen to play back the second animation. 
+</p>
+</blockquote>
+<p>
+6. The method of claim 5, wherein the identification information comprises: 
+</p>
+<blockquote>
+<p>
+a tag for indicating that one or more frames are from a particular sequence. 
+</p>
+</blockquote
+<p>
+7. An apparatus for playing back an interactive production stored on a medium having a spiral data track, wherein the medium includes frames corresponding to a first animation sequence showing a first action interleaved with frames corresponding to a second animation sequence showing a second action to produce a series of frames wherein adjacent frames in the series correspond to different animation sequences, the apparatus comprising: 
+</p>
+<blockquote>
+<p>
+a computer system including a processor, user input device and display screen; 
+</p>
+<p>
+a drive for reading the medium coupled to the computer system for retrieving frames from the series of frames on the medium; 
+</p>
+<p>
+means responsive to signals from the user input device to output a select signal indicating the selection of the second sequence; 
+</p>
+<p>
+selection means for selectively storing the interleaved frames while the interleaved frames are contiguously read from the medium; and 
+</p>
+<p>
+displaying means coupled to the selection means for displaying on the display screen frames corresponding to the first animation sequence, and, upon generation of the select signal, for displaying on the display screen frames corresponding to the second animation sequence in place of displaying one or more frames corresponding to the first animation sequence. 
+</p>
+</blockquote>
+<p>
+8. The apparatus of claim 7, wherein the frames in the series are compressed, the apparatus further comprising: 
+</p>
+<blockquote>
+<p>
+selection means responsive to signals from the user input device to output a select signal indicating the selection of the second sequence; and 
+</p>
+<p>
+decompression means for selectively decompressing frames in response to the select signal, wherein only frames corresponding to the first animation sequence are decompressed unless the select signal is present, in which case only frames corresponding to the second animation sequence are decompressed. 
+</p>
+</blockquote>
+<p>
+9. An apparatus for playing back an interactive production stored on a medium having a spiral data track, wherein the medium includes frames corresponding to a first animation sequence shwoing a first action interleaved with frames corresponding to a second animation sequence to produce a series of frames wherein adjacent frames in the series correspond to different animation sequences, the medium further including tags associated with one or more frames on the medium, wherein the tags indicate which sequence the one or more frames associated with a given tag belongs to, the apparatus comprising: 
+</p>
+<blockquote>
+<p>
+a computer system including a processor, user input device and a display screen; 
+</p>
+<p>
+a drive for reading the medium coupled to the computer system for retrieving frames from the series of frames on the medium; 
+</p>
+<p>
+means for reading the tags from the medium; 
+</p>
+<p>
+means responsive to signals from the user input device to select an animation sequence; and 
+</p>
+<p>
+means for using the tags to buffer and display frames from the selected animation sequence while skipping frames from the other non-selected animation sequence so that the skipped frames are not buffered. 
+</p>
