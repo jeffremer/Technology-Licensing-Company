@@ -5,7 +5,6 @@ layout:    nil   # no layout
 ---
 a {
 	color: #333;
-	font-size: 7pt;
 	font-weight: normal;
 	text-decoration: none;
 	font-family: Verdana, Helvetica, Arial;
@@ -54,7 +53,6 @@ li {
 
 p, dl, textarea, li, td {
 	color: #000; 
-	font-size: 7pt; 
 	font-family: Verdana, Helvetica, Arial;
 	text-align: left;
 }
@@ -156,7 +154,6 @@ div.right {
 }
 
 #menu a {		
-	font: 10px Verdana, Arial, Helvetica, sans-serif;	
 	font-weight: bold;
 	color: #fff;
 }
@@ -167,16 +164,11 @@ div.right {
 
 .text { 
 	color: #000000; 
-	font-size: 10px;
-	font-family: Verdana, Arial, Helvetica, sans-serif; 
 	text-decoration: none;
 }
 
 .boldtext { 
 	color: #000000; 
-	font-size: 10px; 
-        font-weight : bold;
-	font-family: Verdana, Arial, Helvetica, sans-serif; 
 	text-decoration: none;
 }
 

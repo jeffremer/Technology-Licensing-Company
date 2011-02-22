@@ -5,16 +5,6 @@ filter:
   - erb
 ---
 
-<h3 style="color: #f00;" >Notice</h3>
-<p style="font-size: 11pt;"><strong>
-Any offers made by TLC to license <a href="/patent.html" title="Patent" style="font-size: 11pt;">US Patent #
-5,734,862</a> are hereby rescinded. TLC remains committed
-to licensing the patent under reasonable terms,
-therefore if you are interested in a license, please
-<a href="/faq.html" title="Contact" style="font-size: 11pt;">contact</a> us.
-</strong>
-</p>
-<hr />
 <p>
 Welcome to Technology Licensing Company (TLC). If your company is a manufacturer, distributor or is otherwise involved with DVD devices or software, this website may be of interest. 
 </p>
